@@ -64,12 +64,12 @@ jobs:
 #           source: "."
 #           target: "/home/ubuntu/my-node-app"
 
-What secrets do you need to set?
-Go to your GitHub repo → Settings → Secrets and variables → Actions → Add these secrets:
+# What secrets do you need to set?
+# Go to your GitHub repo → Settings → Secrets and variables → Actions → Add these secrets:
 
-SERVER_HOST→ e.g.,ec2-13-58-99-123.compute-1.amazonaws.com
+# SERVER_HOST→ e.g.,ec2-13-58-99-123.compute-1.amazonaws.com
 
-SERVER_USER→ e.g.,ubuntu
+# SERVER_USER→ e.g.,ubuntu
 
-SERVER_SSH_KEY → your private SSH key (contents of ~/.ssh/id_rsa, no passphrase)
+# SERVER_SSH_KEY → your private SSH key (contents of ~/.ssh/id_rsa, no passphrase)
 
